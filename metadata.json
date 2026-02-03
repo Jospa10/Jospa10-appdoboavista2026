@@ -1,0 +1,7 @@
+{
+  "name": "Copy of app do Boa Vista FC 2026",
+  "description": "Uma plataforma completa para gestão do time amador Boa Vista FC, com controle de jogadores, estatísticas, calendário de jogos e presença em treinos.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
