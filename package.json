@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview"
   "dependencies": {
-  "react": "^18.2.0", // <--- Este é o culpado
+  "react": "^18.2.0",
   "recharts": "^2.13.3",
     "react": "19.0.0",
     "react-dom": "19.0.0"
