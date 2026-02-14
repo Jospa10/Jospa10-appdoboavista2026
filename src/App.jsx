@@ -106,7 +106,7 @@ const App: React.FC = () => {
     localStorage.setItem('bvfc_motto', teamMotto);
   }, [players, matches, photos, attendance, transactions, leagueTeams, teamShield, teamFlag, teamMascot, teamAnthem, teamMotto]);
 
-  const handleFileUpload = (e: React.ChangeEvent<HTMLInputElement>, target: string) => {
+  const handleFileUpload = (e, target) => {
     const file = e.target.files?.[0];
     if (file) {
       const reader = new FileReader();
