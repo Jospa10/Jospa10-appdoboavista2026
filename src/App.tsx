@@ -9,7 +9,7 @@ import {
   ChevronDown, Music, Dog
 } from 'lucide-react';
 
-const App = () => {
+export default function App() {
   const [activeTab, setActiveTab] = useState('home');
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [isAdmin, setIsAdmin] = useState(false);
