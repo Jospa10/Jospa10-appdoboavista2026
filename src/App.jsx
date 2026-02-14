@@ -1,7 +1,7 @@
 
 import React, { useState, useMemo, useEffect, useRef } from 'react';
-import { TabType, Player, Match, PlayerPosition, FinancialTransaction, LeagueTeam } from './types';
-import { PLAYERS as INITIAL_PLAYERS, MATCHES as INITIAL_MATCHES, GALLERY_PHOTOS as INITIAL_PHOTOS, INITIAL_TRANSACTIONS } from './constants';
+import { TabType, Player, Match, PlayerPosition, FinancialTransaction, LeagueTeam } from './types.ts';
+import { PLAYERS as INITIAL_PLAYERS, MATCHES as INITIAL_MATCHES, GALLERY_PHOTOS as INITIAL_PHOTOS, INITIAL_TRANSACTIONS } from './constants.js';
 import { 
   Menu, LogOut, Plus, Trash2, Shield, X, ImagePlus, 
   Edit2, Lock, Trophy, PlusCircle, Calendar, Flag,
