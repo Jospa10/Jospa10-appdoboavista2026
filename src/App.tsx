@@ -1,7 +1,7 @@
 import React, { useState, useMemo, useEffect, useRef } from 'react';
 // IMPORTANTE: Adicionei .ts e .js no final para o Vercel encontrar os arquivos
 import { TabType, Player, Match, PlayerPosition, FinancialTransaction, LeagueTeam } from './types';
-import { PLAYERS as INITIAL_PLAYERS, MATCHES as INITIAL_MATCHES, GALLERY_PHOTOS as INITIAL_PHOTOS, INITIAL_TRANSACTIONS } from './constants.js';
+import { PLAYERS as INITIAL_PLAYERS, MATCHES as INITIAL_MATCHES, GALLERY_PHOTOS as INITIAL_PHOTOS, INITIAL_TRANSACTIONS } from './constants';
 import { 
   Menu, LogOut, Plus, Trash2, Shield, X, ImagePlus, 
   Edit2, Lock, Trophy, PlusCircle, Calendar, Flag,
