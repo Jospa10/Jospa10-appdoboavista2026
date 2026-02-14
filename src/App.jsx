@@ -9,9 +9,9 @@ import {
   ChevronDown, Music, Dog
 } from 'lucide-react';
 
-type AttendanceStatus = 'vou' | 'nao-vou' | 'aguardando';
+type AttendanceStatus = 'vou' | 'não-vou' | 'aguardando';
 
-const App: React.FC = () => {
+const App = () => {
   const [activeTab, setActiveTab] = useState<TabType>('home');
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [isAdmin, setIsAdmin] = useState(false);
